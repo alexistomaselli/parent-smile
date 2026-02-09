@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #13a4ec;
+  --accent-orange: #FFB347;
+  --background-light: #f6f7f8;
+  --background-dark: #101c22;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-accent-orange: var(--accent-orange);
+  --color-background-light: var(--background-light);
+  --color-background-dark: var(--background-dark);
+  
+  --font-display: "Lexend", sans-serif;
+}
+
+body {
+  font-family: var(--font-display);
+  background-color: var(--background-light);
+  color: #1e293b;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}

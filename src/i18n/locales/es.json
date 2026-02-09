@@ -1,0 +1,182 @@
+{
+    "common": {
+        "today": "Hoy",
+        "tomorrow": "Mañana",
+        "monday": "Lunes",
+        "friday": "Viernes",
+        "confirmed": "Confirmado",
+        "in_progress": "En Progreso",
+        "scheduled": "Programado",
+        "stable": "Estable",
+        "recovering": "Recuperando",
+        "critical": "Crítico"
+    },
+    "nav": {
+        "services": "Servicios",
+        "how_it_works": "Cómo funciona",
+        "testimonials": "Testimonios",
+        "login": "Ingresar",
+        "join": "Unirse a la Plataforma",
+        "home": "Home",
+        "directory": "Directorio",
+        "parents": "Padres",
+        "professionals": "Profesionales",
+        "admin": "Admin"
+    },
+    "landing": {
+        "hero": {
+            "trusted": "Confiado por más de 10,000 familias",
+            "title": "Cuidado experto para el bienestar de tu familia.",
+            "subtitle": "Accede a pediatras, psicólogos y educadores expertos desde tu hogar. Soporte integral para familias modernas.",
+            "cta_start": "Empezar Ahora",
+            "cta_how": "Ver Cómo Funciona",
+            "rating": "4.9/5 valoración de padres reales"
+        },
+        "services": {
+            "title": "Especialidades de Cuidado",
+            "subtitle": "Hemos seleccionado a los mejores profesionales en tres pilares esenciales del bienestar familiar.",
+            "pediatrics": {
+                "title": "Pediatría",
+                "desc": "Guía médica experta para seguimiento de crecimiento, vacunas y salud infantil.",
+                "link": "Explorar Pediatría"
+            },
+            "psychology": {
+                "title": "Psicología",
+                "desc": "Apoyo empático para el posparto, comportamiento infantil y resiliencia emocional.",
+                "link": "Explorar Psicología"
+            },
+            "education": {
+                "title": "Educación",
+                "desc": "Planificación estratégica para hitos del desarrollo y caminos de aprendizaje.",
+                "link": "Explorar Educación"
+            }
+        },
+        "how_it_works": {
+            "title": "Cuidado tan simple como 1, 2, 3",
+            "subtitle": "Hemos eliminado la complejidad de encontrar cuidado familiar de calidad. Empiece en minutos.",
+            "step1": {
+                "title": "Explore Expertos",
+                "desc": "Descubra una red de profesionales verificados. Filtre por especialidad, idioma y reseñas."
+            },
+            "step2": {
+                "title": "Reserve con Facilidad",
+                "desc": "Elija un horario que se ajuste a su agenda. Consultas por video o visitas a domicilio."
+            },
+            "step3": {
+                "title": "Cuidado Premium",
+                "desc": "Interactúe en nuestra plataforma segura. Reciba notas clínicas y recursos de seguimiento."
+            },
+            "cta": "Comience su primera consulta"
+        }
+    },
+    "dashboard_prof": {
+        "greeting": "Buenos días, Dra. Jenkins",
+        "summary": "Tiene {{count}} consultas programadas para hoy.",
+        "search_placeholder": "Buscar pacientes...",
+        "stats": {
+            "earnings": "Ingresos Semanales",
+            "new_patients": "Nuevos Pacientes",
+            "rating": "Valoración Media",
+            "vs_last_week": "vs semana pasada",
+            "active_records": "registros activos",
+            "reviews": "reseñas"
+        },
+        "agenda": {
+            "title": "Agenda de Hoy",
+            "view_calendar": "Ver Calendario"
+        },
+        "requests": {
+            "title": "Solicitudes Pendientes",
+            "requested_for": "Solicitado para",
+            "accept": "Aceptar",
+            "reschedule": "Reprogramar"
+        },
+        "recent_patients": {
+            "title": "Pacientes Recientes",
+            "search_all": "Buscar Todos",
+            "col_name": "Nombre del Paciente",
+            "col_visit": "Última Visita",
+            "col_condition": "Condición",
+            "col_status": "Estado"
+        },
+        "messages": {
+            "new": "Nuevo Mensaje",
+            "from": "De"
+        }
+    },
+    "dashboard_parent": {
+        "badge": "Panel de Familia",
+        "greeting": "¡Hola, Alexi!",
+        "summary": "Aquí tienes el resumen de tu actividad familiar.",
+        "stats": {
+            "next": "Próxima Cita",
+            "monthly": "Consultas este mes",
+            "budget": "Presupuesto",
+            "active": "Suscripción Activa"
+        },
+        "sessions": {
+            "title": "Próximas Sesiones",
+            "view_history": "Ver Historial",
+            "join": "Unirse"
+        },
+        "sidebar": {
+            "my_appointments": "Mis Citas",
+            "family_profile": "Perfil Familiar",
+            "payments": "Pagos",
+            "settings": "Ajustes",
+            "logout": "Cerrar Sesión"
+        }
+    },
+    "directory": {
+        "title": "Buscar Especialistas",
+        "subtitle": "Filtra por categoría para encontrar al profesional que tu familia necesita.",
+        "search_placeholder": "¿A quién buscas? (Nombre o especialidad...)",
+        "filters": {
+            "open": "Filtrar por Categoría",
+            "close": "Cerrar Filtros"
+        },
+        "status": {
+            "showing": "Mostrando",
+            "for": "para",
+            "clear": "Limpiar todo"
+        },
+        "no_results": {
+            "title": "No encontramos resultados",
+            "desc": "Prueba con otra búsqueda o limpia los filtros.",
+            "cta": "Ver todos los profesionales"
+        },
+        "card": {
+            "session_from": "Sesión desde",
+            "available": "Disp."
+        }
+    },
+    "admin": {
+        "sidebar": {
+            "dashboard": "Dashboard",
+            "professionals": "Profesionales",
+            "reservations": "Reservas",
+            "payments": "Pagos & Comisiones",
+            "settings": "Configuración"
+        },
+        "dashboard": {
+            "title": "Vista General",
+            "new_pro": "Nuevo Profesional",
+            "stats": {
+                "earnings": "Ingresos Totales",
+                "users": "Usuarios Activos",
+                "pros": "Profesionales",
+                "pending": "Pendientes Pago"
+            },
+            "recent_bookings": "Últimas Reservas",
+            "search": "Buscar transacción...",
+            "table": {
+                "client": "Cliente",
+                "pro": "Profesional",
+                "date": "Fecha",
+                "amount": "Monto",
+                "status": "Estado",
+                "completed": "Completado"
+            }
+        }
+    }
+}
