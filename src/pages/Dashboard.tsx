@@ -8,7 +8,6 @@ import {
     Bell,
     Settings,
     LogOut,
-    ChevronRight,
     ExternalLink
 } from 'lucide-react';
 import { motion } from 'framer-motion';

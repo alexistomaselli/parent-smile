@@ -6,17 +6,14 @@ import {
     DollarSign,
     Bell,
     Settings,
-    LogOut,
     Stethoscope,
     Users,
-    TrendingUp,
     Star,
     Search,
     MoreVertical,
     Plus,
     MessageSquare,
     ExternalLink,
-    Heart
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
@@ -250,7 +247,7 @@ const ProfessionalDashboard: React.FC = () => {
 
                                     <div className="flex items-center gap-4">
                                         <span className={`px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest ${['Confirmado', 'Confirmato'].includes(item.status) ? 'bg-emerald-50 text-emerald-600' :
-                                                ['En Progreso', 'In Corso'].includes(item.status) ? 'bg-blue-50 text-blue-600' : 'bg-slate-50 text-slate-400'
+                                            ['En Progreso', 'In Corso'].includes(item.status) ? 'bg-blue-50 text-blue-600' : 'bg-slate-50 text-slate-400'
                                             }`}>
                                             {item.status}
                                         </span>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, CreditCard, Video, Calendar, Clock, CheckCircle, ShieldCheck } from 'lucide-react';
+import { X, CreditCard, Video, Calendar, CheckCircle, ShieldCheck } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface BookingModalProps {
